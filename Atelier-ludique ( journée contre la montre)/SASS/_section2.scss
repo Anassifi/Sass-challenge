@@ -1,0 +1,66 @@
+// Salma
+.main__features{
+    @include flex
+    @include bord
+
+    width: 90%;
+    margin-left: 5%;
+}
+
+.main__feature-img-cont{
+    padding: 5em 3em ;
+    width: 100%;
+    
+}
+
+
+
+.main__features-reverse{
+    flex-direction: row-reverse;
+   
+}
+
+
+.main__feature{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.main__feature-desc{
+    padding-left: 5em;
+    padding-top: 2em;
+    width: 84%;
+    color: $text-color-secondary;
+  }
+
+  .main__feature-title{
+    padding-left: 3.5em;
+}
+
+
+@media screen and (max-width:1024px ) {
+      .main__features{
+
+        padding: 30px;
+        flex-direction: column-reverse;
+
+      }
+      .main__feature-desc{
+          text-align: center;
+          padding-left: 2em;
+      }
+      .main__feature-img-cont{
+          position: center;
+      }
+      .main__feature-title{
+          text-align: center;
+          padding: 0;
+      }
+
+    }
+
+
+
+
+
+   
