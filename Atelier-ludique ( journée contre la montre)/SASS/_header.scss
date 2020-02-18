@@ -1,0 +1,54 @@
+// Anassifi Sass
+.hero {
+    .container {
+        background-color: $background-color;
+    }
+}
+
+.hero__bar {
+    padding-left: 6em;
+    padding-top: 3em;
+}
+
+.hero__btn {
+    color: $text-color-primary;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.hero__btn--light {
+    font-size: 15px;
+}
+
+.hero__main-content {
+    @include flex();
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.hero__left { 
+    width: 500px;
+    padding-right: 20px;
+    .hero__heading{
+        font-size: 1.8em;
+    }
+    .hero__subheading {
+        font-size: 15px;
+        width: 425px;
+        padding-top: 20px;
+        padding-bottom: 2em;
+    }
+}
+
+.hero__right {
+    width: 500px;
+}
+
+.hero__btn--accent {
+    font-size: .7em;
+    color: #fff;
+    background-color: $color-accent;
+}
