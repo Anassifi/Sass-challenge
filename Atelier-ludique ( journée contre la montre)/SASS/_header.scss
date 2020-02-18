@@ -17,6 +17,8 @@
     padding: 10px 40px;
     font-weight: bold;
     background-color: #fff;
+    box-shadow: $main-box-shadoww;
+    transition: $trans-cubic;
 }
 
 .hero__btn--light {
