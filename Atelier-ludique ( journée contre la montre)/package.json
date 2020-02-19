@@ -7,6 +7,7 @@
     "wach:sass": "node-sass sass/main.scss css/style.css -w",
     "server": "live-server --port=8181 --browser=chrome",
     "start": "npm-run-all server wach:sass",
+    "npm": "node-sass sass/main.scss css/style.comp.css   ",
     "compiler:sass": "node-sass sass/main.scss css/style.comp.css -w",
     "compress:css": "node-sass css/style.comp.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compiler:sass compress:css"

@@ -1,7 +1,7 @@
 // Salma
 .main__features{
-    @include flex
-    @include bord
+    @include flex;
+    @include bord;
 
     width: 90%;
     margin-left: 5%;
@@ -46,7 +46,8 @@
     padding: 70px;
     width: 50%;
     margin-left: 17em;
-    
+    background-color: white;
+    transform: translate(2%, 50%);
 
 
   }
@@ -92,9 +93,12 @@
         flex-direction: column;
         margin: 0;
         width: 100%;
+        transform: translate(2%, 50%);
   }
 
-    }
+ }
+
+ 
 
 
 
