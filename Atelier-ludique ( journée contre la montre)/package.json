@@ -1,0 +1,24 @@
+{
+  "name": "challengesass",
+  "version": "1.0.0",
+  "description": "le but du Workshop est de vous mettre en situation ou le client exige une refonte de la page sauf que l'équipe a eu un retard en ce qui concerne la livraison du produit.",
+  "main": "index.js",
+  "scripts": {
+    "wach:sass": "node-sass sass/main.scss css/style.css -w",
+    "server": "live-server --port=8181 --browser=chrome",
+    "start": "npm-run-all server wach:sass",
+    "compiler:sass": "node-sass sass/main.scss css/style.comp.css -w",
+    "compress:css": "node-sass css/style.comp.css css/style.css --output-style compressed",
+    "build:css": "npm-run-all compiler:sass compress:css"
+  },
+  "author": "Anassifi",
+  "license": "ISC",
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5",
+    "sass-watch": "^0.1.0"
+  },
+  "dependencies": {}
+}
