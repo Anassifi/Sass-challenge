@@ -21,3 +21,10 @@
       @content;
     }
   }
+  //mixin border shadow
+  @mixin bord { 
+    background-color: white;
+    box-shadow: -1px 2px 37px -6px rgb(173, 172, 172);
+    margin: 4em 0;
+    border-radius: 15px;
+}
